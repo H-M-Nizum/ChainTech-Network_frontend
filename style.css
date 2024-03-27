@@ -1,0 +1,145 @@
+/* head */
+.nav-item{
+    margin-right: 50px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+.banner{
+    padding-top: 100px;
+}
+.welcome{
+    font-family: Poppins;
+    font-size: 120px;
+    color: white;
+    /* font-weight: 900; */
+    line-height: 10.5px;
+    letter-spacing: 0.11em;
+    text-align: center;
+
+}
+.chaintech{
+    font-family: Poppins;
+    font-size: 120px;
+    background-image: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+.second_pera{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27.39px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+.start_btn{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 17.5px 19.8px;
+    border-radius: 50px;
+}
+.arrow_logo{
+    margin-left: 20px;
+    background-image: url('img/card.png');
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+
+    
+}
+
+/* body */
+.container{
+    margin-top: 50px;
+}
+.parent_card{
+    margin-top: 20px;
+}
+.body_card{
+    padding: 0px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;  
+}
+.card_head{
+    padding: 10px;
+}
+.card_foot{
+    border-top: 2px solid;
+    padding: 10px;
+    
+   
+}
+.card_btn{
+    border-radius: 50px;
+}
+.main_body{
+    /* border-bottom: 2px solid; */
+    border-top: 2px solid;
+    padding-top: 30px;
+}
+
+
+/* footer section */
+footer{
+    background-color: black;
+    margin-top: 40px;
+    
+}
+
+/* media */
+@media screen and (max-width: 1023px) {
+    .welcome {
+      font-size: 80px;
+    }
+    .chaintech{
+        font-size: 80px;
+    }
+    .second_pera{
+        font-size: 16px;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .welcome {
+      font-size: 50px;
+    }
+    .chaintech{
+        font-size: 50px;
+    }
+    .second_pera{
+        font-size: 11px;
+    }
+    .start_btn{
+        font-size: 15px;
+        padding: 14.5px 16.8px;
+        border-radius: 50px;
+    }
+    .arrow_logo{
+        margin-left: 15px;
+        padding-right: 10px;
+        padding-left: 6px;
+        padding-bottom: 15px;
+        padding-top: 5px;  
+    }
+  }
+@media screen and (max-width: 424px) {
+    .welcome {
+      font-size: 40px;
+    }
+    .chaintech{
+        font-size: 40px;
+    }
+    .second_pera{
+    font-size: 8px;
+    }
+  }
